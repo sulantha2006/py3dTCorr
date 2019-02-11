@@ -16,7 +16,7 @@ parser.add_argument('--nthreads', required=False, default=24, type=int)
 parser.add_argument('--block_size', required=False, default=100, type=int)
 args = vars(parser.parse_args())
 
-data_file = args['data']
+data_file = args['datafile']
 mask_file = args['mask']
 out_ = args['out']
 
